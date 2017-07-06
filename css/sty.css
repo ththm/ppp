@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+.main{
+	width: 100%;
+	height:100%;
+	overflow: hidden;
+}
+.page{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	
+}
+.page1{
+	width: 100%;
+	overflow: hidden;
+}
+.page2{
+	/*position: relative;*/
+	border: 1px solid;
+}
+/*.page2{
+	background-color:#0d2b4c;
+	font-size: 0.67rem;
+	text-align: center;
+	
+	color: white;
+	border: 1px solid;
+		}*/
+.page1 img{
+	width: 100%;
+	z-index: -1;
+	/*overflow: hidden;*/
+	/*position: absolute;*/
+	margin-top: 0.9rem;
+	
+	/*left: 30rem;*/
+}
+
+.page1 h1{
+	font-size: 1rem;
+	text-align: center;
+	position: relative;
+	top: -9.5rem;
+	margin-top: 1rem;
+}
+.page2 h2{
+	font-size: 0.6rem;
+	text-align: center;
+	position: relative;
+	top: 0.2rem;
+	
+}
+.page2 .img-1{
+	width:2rem;
+	z-index: -1;
+	position: absolute;
+	left: 1rem;
+}
+.page2 .img-2{
+	width:2rem;
+	z-index: -1;
+	position: absolute;
+	right: 1rem;
+	top: 0.01rem;
+}
+.page2 .font{
+	margin-top:2.5rem;
+	margin-left: 1.5rem;
+}
+.page2 p{
+	font-size:17px;
+	margin-top: 0.2rem;
+}
+.page2 .img-3{
+	width: 3rem;
+	/*height: 3.5rem;*/
+	position: absolute;
+	right: 2rem;
+	top: 4rem;
+}
+.page2 .p-1{
+	width: 1rem;
+	font-size: 1rem;
+	margin-left: 1.5rem;
+	margin-top: 2.2rem;
+}
+.bottom-1 .img-4{
+	width: 7rem;
+	position: absolute;
+	right: 1.4rem;
+	top: 10rem;
+}
+.bottom-1 .p-2{
+	width: 100px;
+	font-size:15px;
+	position:absolute;
+	right:2.6rem;
+	top:11.8rem;
+}
+.top-3{
+	background: url(../images/);
+}
+/*page页在屏幕下面*/
+.pageDown{transform:translateY(100%);} 
+/*page页在屏幕上面*/
+.pageUp{transform:translateY(-100%);}
